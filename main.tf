@@ -1,7 +1,7 @@
 data "terraform_remote_state" "example" {
   backend = "atlas"
   config = {
-    name = "tyloo/tfeRandomPet"
+    name = "ORG_NAME/WORKSPACE_NAME"
   }
 }
 
